@@ -1,0 +1,140 @@
+@import "https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap";
+body {
+  font-family: inter, sans-serif;
+}
+
+.p-box {
+  background: url("https://a-v2.sndcdn.com/assets/images/sc_landing_header_web_featured_artists-8081257b.jpg") 50% / cover no-repeat;
+  justify-content: space-between;
+  width: 1240px;
+  height: 450px;
+  display: flex;
+}
+
+.c1-box {
+  color: #fff;
+  justify-content: space-evenly;
+  padding: 20px;
+  text-decoration: none;
+  display: flex;
+}
+
+.p-heading {
+  color: #fff;
+  padding: 20px;
+}
+
+#modal-modal-title {
+  margin-bottom: 10px;
+}
+
+.fb-btn {
+  color: #fff;
+  background-color: #3578e5;
+  border-color: #3578e5;
+  width: 100%;
+  height: 40px;
+  margin-bottom: 20px;
+  padding: 10px 15px;
+  font-size: 16px;
+  line-height: 18px;
+}
+
+.go-btn {
+  color: #222;
+  background-color: #fff;
+  border-color: #ccc;
+  width: 100%;
+  height: 40px;
+  margin-bottom: 20px;
+  padding: 10px 15px;
+  font-size: 16px;
+  line-height: 18px;
+}
+
+.ap-btn {
+  color: #fff;
+  background-color: #000;
+  border-color: #000;
+  width: 100%;
+  height: 40px;
+  margin-bottom: 20px;
+  padding: 10px 15px;
+  font-size: 16px;
+  line-height: 18px;
+}
+
+.auth-method-separator {
+  text-align: center;
+  margin: 1em auto;
+  font-size: 20px;
+  font-weight: 400;
+  position: relative;
+}
+
+.main-slider-contianer {
+  align-items: center;
+  width: 96%;
+  height: 305px;
+  display: flex;
+  position: relative;
+}
+
+.slider {
+  white-space: nowrap;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+  width: 100%;
+  height: 100%;
+  overflow-x: scroll;
+}
+
+.slider::-webkit-scrollbar {
+  display: none;
+}
+
+.slider-icon.left, .slider-icon.right {
+  opacity: .2;
+  cursor: pointer;
+  z-index: 1;
+  background: #fff;
+  border-radius: 100%;
+  position: absolute;
+  box-shadow: 5px 5px 1.25rem #0000001f;
+}
+
+.slider-icon.left {
+  left: 0;
+}
+
+.slider-icon.right {
+  right: 0;
+}
+
+.slider-icon.left:hover, .slider-icon.right:hover {
+  opacity: 1;
+}
+
+.slider-card-image {
+  object-fit: cover;
+  background: gray center / contain no-repeat;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  width: 100%;
+  height: 210px;
+}
+
+.slider-card-title {
+  white-space: pre-wrap;
+  margin: 0 0 .313rem .625rem;
+  padding: .5rem;
+  font-size: .625rem;
+  font-weight: 500;
+}
+
+.slider-card-description {
+  opacity: .5;
+  margin: 0 0 .313rem .625rem;
+  font-size: .625rem;
+}
+/*# sourceMappingURL=index.3a01df49.css.map */
